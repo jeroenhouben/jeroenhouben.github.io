@@ -1,12 +1,11 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//www.marudot.com//iCal Event Maker
-X-WR-CALNAME:Buurtbijeenkomst Bellamyplein
 CALSCALE:GREGORIAN
 BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
-X-LIC-LOCATION:Europe/Berlin
+TZID:Europe/Amsterdam
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Amsterdam
+X-LIC-LOCATION:Europe/Amsterdam
 BEGIN:DAYLIGHT
 TZOFFSETFROM:+0100
 TZOFFSETTO:+0200
@@ -25,11 +24,11 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTAMP:20160304T142103Z
 UID:20160304T142103Z-329019525@marudot.com
-DTSTART;TZID="Europe/Berlin":20160325T200000
-DTEND;TZID="Europe/Berlin":20160325T210000
+DTSTART;TZID="Europe/Amsterdam":20160323T200000
+DTEND;TZID="Europe/Amsterdam":20160323T210000
 SUMMARY:Buurtbijeenkomst Bellamyplein
 URL:http%3A%2F%2Fwww.amsterdm.nl%2Fbellamy
 DESCRIPTION:Inloopavond Bellamyplein. Praat mee over de herstructurering van het plein
-LOCATION:Wijkmuseum\, Boomstraat 22a\, Amsterdam
+LOCATION:Bilderdijkstraat 108\, Amsterdam
 END:VEVENT
 END:VCALENDAR
