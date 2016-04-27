@@ -23,7 +23,7 @@ a:hover, a:focus {
 }
 
 aside {
-  background-color: #fff;
+  background-color: #eee;
   margin: 0 -20px;
   padding: 20px 0;
 }
@@ -45,7 +45,9 @@ h1 {
 h3 {
   color: #aaa;  
 }
-
+footer {
+  font-size: 12px;
+}
 
 /*
 supercool blue: #67cce7
