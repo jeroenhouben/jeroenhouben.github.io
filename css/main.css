@@ -15,11 +15,12 @@ p, address {
 }
 a, a:link, a:visited {
   text-decoration: none;
-  color: #000;
+  color: #eee;
   border-bottom: 1px solid #ef5ba1;
 }
 a:hover, a:focus {
   background-color: #fff200;
+  color: #333;
 }
 
 aside {
@@ -43,12 +44,16 @@ h1 {
 }
 
 h3 {
-  color: #aaa;  
+  color: #aaa;
+}
+address a, address a:link, address a:visited {
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #ef5ba1;
 }
 footer {
   font-size: 12px;
 }
-
 /*
 supercool blue: #67cce7
 supercool yellow: #fff200
